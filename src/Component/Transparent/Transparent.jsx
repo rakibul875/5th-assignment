@@ -2,7 +2,7 @@ import React from 'react';
 
 const Transparent = () => {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-3 my-10 mx-auto max-w-5xl p-12">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 my-10 mx-auto max-w-5xl p-12">
 
 
             <div className="card w-76 bg-gray-100 shadow-sm">
