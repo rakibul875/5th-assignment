@@ -21,7 +21,7 @@ const DataCard = ({ data }) => {
                     {
                         features.map((featur, index) => <PricingFeature key={index} featur={featur} />)
                     }
-                    <button className='btn w-full rounded-full' onClick={handelAdd}>{isCard ? "Added to Cart" : "Buy Now"}</button>
+                    <button className={`btn w-full rounded-full ${isCard? 'btn-success':'bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white'}`} onClick={handelAdd}>{isCard ? "Added to Cart" : "Buy Now"}</button>
                 </div>
             </div>
         </div>
