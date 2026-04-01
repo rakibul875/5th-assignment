@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Unlimited AI generation",
+      "50+ content templates",
+      "Plagiarism checker",
+      "SEO optimization tools"
+    ],
+    "icon": "https://i.ibb.co.com/TBD3jwFC/writing-2327400-1.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Drag-and-drop editor",
+      "Commercial license",
+      "Weekly new additions",
+      "High-resolution exports"
+    ],
+    "icon": "https://i.ibb.co.com/PskR2ZDh/design-tool-2062942-1.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "4K video footage",
+      "No attribution required",
+      "Unlimited downloads",
+      "Adobe integration"
+    ],
+    "icon": "https://i.ibb.co.com/Cp8NtPnW/Group-7.png"
+  },
+  {
+    "id": 4,
+    "name": "SEO Master Tool",
+    "description": "Boost your website ranking with real-time analytics and keyword research.",
+    "price": 99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Backlink analysis",
+      "Competitor tracking",
+      "Site audit reports",
+      "Keyword difficulty score"
+    ],
+    "icon": "https://i.ibb.co.com/PZXNLwN0/operation-11826522-1.png"
+  },
+  {
+    "id": 5,
+    "name": "Social Media Scheduler",
+    "description": "Plan, track, and publish your social media posts across all platforms from one dashboard.",
+    "price": 20,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Auto-post to 5 platforms",
+      "Advanced analytics",
+      "Hashtag generator",
+      "Bulk image uploader"
+    ],
+    "icon": "https://i.ibb.co.com/F4x5LQ1p/portfolio-1153845-1.png"
+  },
+  {
+    "id": 6,
+    "name": "UI/UX Component Library",
+    "description": "A massive collection of React and Tailwind CSS components to speed up your development.",
+    "price": 79,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "500+ UI components",
+      "Figma source files",
+      "Dark mode support",
+      "Lifetime updates"
+    ],
+    "icon": "https://i.ibb.co.com/C3gzv4C1/social-media-2065203-1-1.png"
+  }
+]
