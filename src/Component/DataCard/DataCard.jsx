@@ -1,11 +1,12 @@
 import { CircleCheck } from 'lucide';
 import PricingFeature from './PricingFeature';
 import { useState } from 'react';
-const DataCard = ({ data }) => {
+const DataCard = ({ data ,carts,setCarts }) => {
     const [isCard, setCard] = useState(false)
     const { icon, name, price, tag, features, description } = data
     const handelAdd = () => {
         setCard(true)
+        setCarts([...carts,data])
     }
     return (
         <div>
