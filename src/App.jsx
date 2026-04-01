@@ -30,11 +30,11 @@ function App() {
         <input type="radio" name="my_tabs_1"
           className={`tab w-40 rounded-full ${active === 'ProdactsSection' ? 'bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white' : ''}`}
           aria-label="Products" onClick={() => setActive('ProdactsSection')} defaultChecked />
-        <input type="radio" name="my_tabs_1" className={`tab w-40 rounded-full ${active === 'Cart' ? 'bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white' : ''}`} aria-label="Cart" onClick={() => setActive('Cart')} />
+        <input type="radio" name="my_tabs_1" className={`tab w-40 rounded-full ${active === 'Cart' ? 'bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white' : ''}`} aria-label={`cart(${carts.length})`} onClick={() => setActive('Cart')} />
       </div>
 
       {active === 'ProdactsSection' && <ProdactsSection DataP={DataP} carts={carts} setCarts={setCarts}/>}
-      {active === 'Cart' && <Cart carts={carts}/>}
+      {active === 'Cart' && <Cart carts={carts} setCarts={setCarts}/>}
       <Account />
       {/* <Transparent/> */}
       <Footer />
